@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Sub_Type__c</fullName>
+    <description>Sub Type Request Classification for QA Process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If needed, please select the sub-type classification for QA Process</inlineHelpText>
+    <label>Sub-Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal welfare</fullName>
+                <default>false</default>
+                <label>Animal welfare</label>
+            </value>
+            <value>
+                <fullName>Bio</fullName>
+                <default>false</default>
+                <label>Bio</label>
+            </value>
+            <value>
+                <fullName>CSR</fullName>
+                <default>false</default>
+                <label>CSR</label>
+            </value>
+            <value>
+                <fullName>GFSI (BRC/IFS/FSSC22000)</fullName>
+                <default>false</default>
+                <label>GFSI (BRC/IFS/FSSC22000)</label>
+            </value>
+            <value>
+                <fullName>Halal</fullName>
+                <default>false</default>
+                <label>Halal</label>
+            </value>
+            <value>
+                <fullName>Kosher</fullName>
+                <default>false</default>
+                <label>Kosher</label>
+            </value>
+            <value>
+                <fullName>Other (email attachment)</fullName>
+                <default>false</default>
+                <label>Other (email attachment)</label>
+            </value>
+            <value>
+                <fullName>Portal</fullName>
+                <default>false</default>
+                <label>Portal</label>
+            </value>
+            <value>
+                <fullName>RFA (UTZ)</fullName>
+                <default>false</default>
+                <label>RFA (UTZ)</label>
+            </value>
+            <value>
+                <fullName>RSPO</fullName>
+                <default>false</default>
+                <label>RSPO</label>
+            </value>
+            <value>
+                <fullName>SHE</fullName>
+                <default>false</default>
+                <label>SHE</label>
+            </value>
+            <value>
+                <fullName>Sustainability</fullName>
+                <default>false</default>
+                <label>Sustainability</label>
+            </value>
+            <value>
+                <fullName>Weidegang</fullName>
+                <default>false</default>
+                <label>Weidegang</label>
+            </value>
+            <value>
+                <fullName>FC spec</fullName>
+                <default>false</default>
+                <label>FC spec</label>
+            </value>
+            <value>
+                <fullName>Review customer spec</fullName>
+                <default>false</default>
+                <label>Review customer spec</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>Bio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>GFSI (BRC/IFS/FSSC22000)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>Halal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>Kosher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>RFA (UTZ)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>RSPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <valueName>Weidegang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Certificates</controllingFieldValue>
+            <controllingFieldValue>Non QA-related</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product specification</controllingFieldValue>
+            <valueName>FC spec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product specification</controllingFieldValue>
+            <valueName>Review customer spec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non QA-related</controllingFieldValue>
+            <valueName>Animal welfare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non QA-related</controllingFieldValue>
+            <valueName>CSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non QA-related</controllingFieldValue>
+            <valueName>SHE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non QA-related</controllingFieldValue>
+            <valueName>Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionnaire</controllingFieldValue>
+            <valueName>Other (email attachment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questionnaire</controllingFieldValue>
+            <valueName>Portal</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

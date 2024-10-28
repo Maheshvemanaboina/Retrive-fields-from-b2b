@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TSS_Sub_type__c</fullName>
+    <description>Sub type Request for classification for TSS process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the Sub type Request for TSS process</inlineHelpText>
+    <label>TSS Sub type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Digital Marketing Campaigns</fullName>
+                <default>false</default>
+                <label>Digital Marketing Campaigns</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Exisiting product-existing customer</fullName>
+                <default>false</default>
+                <label>Exisiting product-existing customer</label>
+            </value>
+            <value>
+                <fullName>Existing product new customer</fullName>
+                <default>false</default>
+                <label>Existing product new customer</label>
+            </value>
+            <value>
+                <fullName>New product existing customer</fullName>
+                <default>false</default>
+                <label>New product existing customer</label>
+            </value>
+            <value>
+                <fullName>New product new customer</fullName>
+                <default>false</default>
+                <label>New product new customer</label>
+            </value>
+            <value>
+                <fullName>Training Material</fullName>
+                <default>false</default>
+                <label>Training Material</label>
+            </value>
+            <value>
+                <fullName>Existing product in use by customer</fullName>
+                <default>false</default>
+                <label>Existing product in use by customer</label>
+            </value>
+            <value>
+                <fullName>Customer interested in an FC product from an existing portfolio</fullName>
+                <default>false</default>
+                <label>Customer interested in an FC product from an existing portfolio</label>
+            </value>
+            <value>
+                <fullName>Customer interested in a new FC product (NPD)</fullName>
+                <default>false</default>
+                <label>Customer interested in a new FC product (NPD)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Technical support for a prospective customer</controllingFieldValue>
+            <valueName>Existing product new customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support for a prospective customer</controllingFieldValue>
+            <valueName>New product new customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support for customers</controllingFieldValue>
+            <valueName>Existing product in use by customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support for customers</controllingFieldValue>
+            <valueName>Customer interested in an FC product from an existing portfolio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support for customers</controllingFieldValue>
+            <valueName>Customer interested in a new FC product (NPD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for content generation</controllingFieldValue>
+            <valueName>Digital Marketing Campaigns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for content generation</controllingFieldValue>
+            <valueName>Events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for content generation</controllingFieldValue>
+            <valueName>Training Material</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
